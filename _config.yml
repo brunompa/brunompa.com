@@ -21,7 +21,7 @@
 title: brunompa
 email: bmp.antunes+blog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a personal website where I'll keep interested people updated in the projects I've done and photos I've taken.
+  This is a personal website where I'll keep interested people updated in the projects I've done and other topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brunompa.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bruno_mpa
