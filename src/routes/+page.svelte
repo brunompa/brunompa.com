@@ -37,9 +37,3 @@
 	<a class="link" target="_blank" href="https://twitter.com/bruno_mpa">twitter</a>
 	<a class="link" target="_blank" href="https://github.com/brunompa">github</a>
 </footer>
-
-<style>
-	nav {
-		display: flex;
-	}
-</style>

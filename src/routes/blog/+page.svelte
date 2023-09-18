@@ -8,7 +8,7 @@
 		{#each data.posts as post}
 			<a href={post.slug} class=" my-2">
 				<li class="post flex bg-zinc-800 rounded-l-lg rounded-r-md">
-					<img class="flex w-[128px] h-[128px] rounded-lg" src={post.thumbnail} />
+					<img class="flex w-[128px] h-[128px] rounded-lg" alt="thumbail" src={post.thumbnail} />
 					<div class="ml-2">
 						<a href={post.slug} class="title text-base">{post.title}</a>
 						<p class="date">{formatDate(post.date)}</p>
