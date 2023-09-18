@@ -1,6 +1,6 @@
 ---
-title: First post
-description: this is my description of the first post I make
+title: "MM #1 - Let's see how high this rocket can fly, partner"
+description: where are we going from here, well see how long these posts and development will last together
 date: '2023-09-18'
 published: true
 thumbnail: '../../blog/mm1-thumbnail.png'

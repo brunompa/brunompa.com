@@ -13,10 +13,10 @@
 <article>
 	<hgroup>
 		<h1>{data.meta.title}</h1>
-		<p>Published at {formatDate(data.meta.date)}</p>
+		<p class="text-sm">Published at {formatDate(data.meta.date)}</p>
 	</hgroup>
 
-	<div class="prose container prose-invert">
+	<div class="prose container prose-invert mt-4">
 		<svelte:component this={data.content} />
 	</div>
 </article>

@@ -28,6 +28,7 @@
 	.posts {
 		display: grid;
 		gap: var(--size-7);
+		width: 720px;
 	}
 
 	.post {
