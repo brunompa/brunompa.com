@@ -10,13 +10,13 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article>
+<article class="px-4 lg:px-0 mx-auto">
 	<hgroup>
 		<h1>{data.meta.title}</h1>
 		<p class="text-sm">Published at {formatDate(data.meta.date)}</p>
 	</hgroup>
 
-	<div class="prose container prose-invert mt-4">
+	<div class="prose prose-invert mt-4">
 		<svelte:component this={data.content} />
 	</div>
 </article>
@@ -25,6 +25,14 @@
 	article {
 		max-inline-size: var(--size-content-3);
 		margin-inline: auto;
+	}
+
+	hgroup {
+		max-width: 52ch;
+	}
+
+	article {
+		max-width: 65ch;
 	}
 
 	h1 {
