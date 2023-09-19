@@ -1,5 +1,5 @@
 ---
-title: "MM #1 - Let's see how high this rocket can fly, partner"
+title: "Monday Material #1 - Let's see how high this rocket can fly, partner"
 description: where are we going from here, well see how long these posts and development will last together
 date: '2023-09-18'
 published: true
