@@ -34,7 +34,7 @@ p {
   background-color: #1D1F20;
   padding: 0 10px;
   line-height: 20px;
-  height: 20px;
+  /* height: 20px; */
 }
 .top-links a {
   color: white;

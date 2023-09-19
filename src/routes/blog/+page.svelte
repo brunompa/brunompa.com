@@ -7,9 +7,14 @@
 	<ul class="posts container">
 		{#each data.posts as post}
 			<a href={post.slug} class=" my-2">
-				<li class="post flex bg-zinc-800 rounded-l-lg rounded-r-md">
-					<img class="flex w-[128px] h-[128px] rounded-lg" alt="thumbail" src={post.thumbnail} />
-					<div class="ml-2">
+				<li class="post grid sm:flex bg-zinc-800 rounded-l-lg rounded-r-md">
+					<img
+						class="mx-auto flex h-full rounded-lg p-3 sm:m-0 w-[40%]"
+						alt="thumbail"
+						src={post.thumbnail}
+						style="aspect-ratio: 1 / 1;"
+					/>
+					<div class="m-3">
 						<a href={post.slug} class="title text-base">{post.title}</a>
 						<p class="date">{formatDate(post.date)}</p>
 						<hr class="w-full h-px my-1 bg-gray-200 border-0 dark:bg-gray-700" />
@@ -26,9 +31,9 @@
 		text-decoration: underline;
 	}
 	.posts {
-		display: grid;
+		/* display: grid; */
 		gap: var(--size-7);
-		width: 720px;
+		max-width: 720px;
 	}
 
 	.post {
