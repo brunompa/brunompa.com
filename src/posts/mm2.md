@@ -1,6 +1,6 @@
 ---
 title: "Monday Material #2 - Why we're here"
-description: a sense of the game and the blog and some new features explanations
+description: a sense of the game, the blog and some new features explanations
 date: '2023-09-25'
 published: true
 thumbnail: '../../blog/mm2-thumbnail.png'
