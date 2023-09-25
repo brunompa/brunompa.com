@@ -6,10 +6,10 @@
 <section>
 	<ul class="posts container">
 		{#each data.posts as post}
-			<a href={post.slug} class=" my-2">
-				<li class="post grid sm:flex bg-zinc-800 rounded-l-lg rounded-r-md">
+			<a href={post.slug} class="">
+				<li class="post grid sm:flex bg-zinc-800 rounded-l-lg rounded-r-md my-4">
 					<img
-						class="mx-auto flex h-full rounded-lg p-3 sm:m-0 w-[40%]"
+						class="mx-auto flex h-full rounded-lg p-3 sm:m-0 w-[40%] max-w-[180px]"
 						alt="thumbail"
 						src={post.thumbnail}
 						style="aspect-ratio: 1 / 1;"

@@ -20,19 +20,19 @@ I'll go in depth on a game functionality on each monday material, teaching you a
 
 ### Bank
 
-Right now I'm working on the investments expanding feature allowing the player to see check how many times their investment has capitalized on, also thinking about ways to expand the invesment tab.
+Right now I'm working on the investments expanding feature allowing the player to see check how many times their investment has capitalized on, also thinking about ways to expand the bank building.
 ![bank part with three investments and one of them expanded to see how many times it has returned a investment](../../blog/mm1-bank-expansion.png)
 
 ---
 
 ### Shipyard / Port
 
-![in the shipyard tab you have a list of the type of boats you have which also shows you how many of the type you have and how many fisherman are attributed to each boat](../../blog/mm1-old-shipyard.png)
+![in the shipyard building you have a list of the type of boats you have which also shows you how many of the type you have and how many fisherman are attributed to each boat](../../blog/mm1-old-shipyard.png)
 
 - This image is from the old shipyard that is now the used in the Port interface.
 
 While that I've been working on the shipyard and port differences, functionalities and UI making the shipyard for buying and building boats and the port to manage their state.
-![interface of the canoe section in the port tab, with the different specs and actions to buy or build a new one](../../blog/mm1-new-shipyard.png)
+![interface of the canoe section in the port, with the different specs and actions to buy or build a new one](../../blog/mm1-new-shipyard.png)
 
 - This is the new shipyard interface where im currently working on, where the player will buy and build new boats.
 
